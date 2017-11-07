@@ -1,0 +1,63 @@
+{
+  "request": {
+    "query": "cool",
+    "offset": 0,
+    "count": 24,
+    "group": null,
+    "selectedFilters": {
+
+    }
+  },
+  "mainFilters": {
+    "cat": {
+      "internalName": "cat",
+      "displayName": "Category",
+      "order": null,
+      "type": null,
+      "values": [
+        {
+          "value": "Cheap stuff",
+          "frequency": 1234,
+          "relevance": 0.123,
+          "isRelativeFrequency": false
+        }
+      ]
+    }
+  },
+  "extraFilters": {
+    "notInteresting": {
+      "internalName": "notInteresting",
+      "displayName": "idc",
+      "order": null,
+      "type": null,
+      "values": [
+        {
+          "value": "Who cares",
+          "frequency": 1234,
+          "relevance": 0.123,
+          "isRelativeFrequency": false
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "ABC123",
+      "name": "Cool product",
+      "url": null,
+      "price": 0,
+      "currency": null,
+      "taxRate": 0,
+      "orderNumbers": {
+        "default": "ABABABABAB-123345364"
+      },
+      "attributes": {
+
+      },
+      "properties": {
+
+      },
+      "relevance": 0
+    }
+  ]
+}
